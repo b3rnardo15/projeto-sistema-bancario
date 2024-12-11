@@ -56,7 +56,8 @@ def sacar(saldo, extrato, numero_saques, limite):
     
     return saldo, extrato, numero_saques
 
-# Função para exibir o extrato
+# Função para exibir o extrato atualizado
+
 def exibir_extrato(saldo, extrato):
     print(f"\n================ EXTRATO - {nome_banco} ================")
     print("Não foram realizadas movimentações." if not extrato else extrato)
